@@ -2,8 +2,61 @@
   box-sizing: border-box;
   font-family: sans-serif;
   margin: 0;
-  padding: 0;
+}
+header {
+  margin: 20px;
 }
 h1 {
   display: inline-block;
+  position: absolute;
+  font-size: 35px;
+}
+main {
+  margin: 10% 0 0 20%;
+  font-size: ;
+}
+button {
+  color: white;
+  width: 85px;
+  height: 30px;
+  background-color: rgb(39, 142, 252);
+  border-radius: 5px;
+  border: none;
+}
+#section {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid rgba(143, 143, 143, 0.711);
+}
+.section-spacing {
+  margin-bottom: 8%;
+}
+ul {
+  list-style-type: none;
+}
+h2 {
+  display: inline-block;
+  line-height: 50px;
+}
+ul {
+  padding-left: 5px;
+}
+.check-style {
+  color: rgb(0, 164, 0);
+  border: 1px solid;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+}
+.editorial {
+  font-size: 8px;
+  color: white;
+  background-color: rgb(39, 142, 252);
+  padding: 6px;
+  border-radius: 8px;
 }
