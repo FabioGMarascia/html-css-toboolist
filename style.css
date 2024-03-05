@@ -4,7 +4,7 @@
   margin: 0;
 }
 header {
-  margin: 20px;
+  margin: 15px;
 }
 h1 {
   display: inline-block;
@@ -12,8 +12,7 @@ h1 {
   font-size: 35px;
 }
 main {
-  margin: 10% 0 0 20%;
-  font-size: ;
+  margin: 5% 0 0 20%;
 }
 button {
   color: white;
@@ -30,8 +29,9 @@ button {
   text-align: center;
   border: 1px solid rgba(143, 143, 143, 0.711);
 }
+li,
 .section-spacing {
-  margin-bottom: 5%;
+  margin-bottom: 20px;
 }
 h2 {
   display: inline-block;
@@ -41,12 +41,11 @@ ul {
   list-style-type: none;
   padding-left: 5px;
 }
-li {
-  margin-bottom: 3%;
-}
-.check-style {
+
+.check-style,
+.cross-style {
   color: rgb(0, 164, 0);
-  border: 1px solid;
+  border: 2px solid;
   border-radius: 50%;
   text-align: center;
   display: inline-block;
@@ -54,43 +53,32 @@ li {
   height: 16px;
   font-size: 10px;
   margin-right: 6px;
+  padding-right: 1px;
 }
 .cross-style {
   color: crimson;
-  border: 1px solid;
-  border-radius: 50%;
-  text-align: center;
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  font-size: 10px;
-  margin-right: 6px;
 }
-.editorial {
+.tag {
   font-size: 8px;
   color: white;
+  padding: 6px;
+  border-radius: 8px;
+}
+#editorial {
   background-color: rgb(39, 142, 252);
-  padding: 6px;
-  border-radius: 8px;
 }
-.q1-goals {
-  font-size: 8px;
-  color: white;
+#q1-goals {
   background-color: rgb(117, 20, 181);
-  padding: 6px;
-  border-radius: 8px;
 }
-.recruiting {
-  font-size: 8px;
-  color: white;
+#recruiting {
   background-color: rgb(42, 148, 86);
-  padding: 6px;
-  border-radius: 8px;
 }
-.mobile {
-  font-size: 8px;
-  color: white;
+#mobile {
   background-color: rgb(206, 134, 0);
-  padding: 6px;
-  border-radius: 8px;
+}
+#website {
+  background-color: rgb(176, 0, 123);
+}
+#series {
+  background-color: rgb(113, 169, 0);
 }
