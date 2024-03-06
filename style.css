@@ -64,21 +64,21 @@ ul {
   padding: 6px;
   border-radius: 8px;
 }
-#editorial {
+.editorial {
   background-color: rgb(39, 142, 252);
 }
-#q1-goals {
+.q1-goals {
   background-color: rgb(117, 20, 181);
 }
-#recruiting {
+.recruiting {
   background-color: rgb(42, 148, 86);
 }
-#mobile {
+.mobile {
   background-color: rgb(206, 134, 0);
 }
-#website {
+.website {
   background-color: rgb(176, 0, 123);
 }
-#series {
+.series {
   background-color: rgb(113, 169, 0);
 }
